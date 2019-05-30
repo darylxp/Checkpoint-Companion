@@ -1,0 +1,17 @@
+{
+  "name": "checkpointer",
+  "version": "0.0.1",
+  "description": "A node.js app which checks a MoX daemon and checkpoints a block in the past to be stored on IPFS",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "author": "Daryl",
+  "license": "MIT",
+  "dependencies": {
+    "ipns": "^0.5.2",
+    "monero-rpc": "^0.5.0",
+    "read-last-lines": "^1.7.1",
+    "request": "^2.88.0"
+  }
+}
